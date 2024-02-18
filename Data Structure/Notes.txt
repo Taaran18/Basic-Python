@@ -1,0 +1,10 @@
+# Types of Data Structures
+- String
+- Lists
+- Tuples
+- Dictionary
+- Set
+- Array
+
+
+#

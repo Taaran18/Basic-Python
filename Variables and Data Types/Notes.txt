@@ -1,0 +1,132 @@
+# Variable
+- It is a name given to a memory location in a program.
+- A variable holds a value that can be modified during the execution of a program.
+- Example ->
+        name = "Taaran"
+        age = 21
+
+
+# Rules for Identifiers
+- It can be combination of uppercase and lowercase letters, digits or an underscore(_).
+- It cannot start wit digit. (var1, not 1var)
+- We cannot use special symbols like 1, #, @, %, $ etc. in identifier.
+- It can be of any length.
+
+
+# Data Types
+- Integers (+ve, -ve and 0)
+- String (Can be written in ' ', " " or ''' ''')
+- Float (Decimal Type)
+- Boolean (True or False)
+- None (It represents absence of value)
+
+
+# Token
+- Tokens in Python are the smallest units of a program, including identifiers, keywords, literals, and operators.
+- They are building blocks of code recognized by the Python interpreter.
+- Types of tokens include:
+  1. Identifiers -> Names used to identify variables, functions, classes, etc. 
+  2. Keywords -> Reserved words with predefined meanings.
+  3. Literals -> Literal values like numbers, strings, and boolean values.
+  4. Operators -> Symbols used for arithmetic, comparison, logical operations, etc.
+  5. Delimiters -> Symbols like parentheses, braces, and commas used for grouping and punctuation.
+  6. Punctuators -> Symbols to organize sentence structure in programming.
+
+
+# Operators
+- Operators in Python perform various operations on operands.
+- They are categorized into different types based on their functionality.
+- Types of operators in Python include:
+  1. Arithmetic operators: Perform arithmetic operations like addition, subtraction, multiplication, division, etc.
+  2. Comparison operators: Compare two values and return a boolean result indicating the comparison's outcome.
+  3. Assignment operators: Assign values to variables.
+  4. Logical operators: Combine boolean values and return a boolean result based on logical operations like AND, OR, NOT.
+  5. Bitwise operators: Perform bitwise operations on integer operands.
+  6. Membership operators: Check for membership in a sequence (e.g., lists, tuples, strings).
+  7. Identity operators: Compare the memory addresses of two objects to check for identity.
+
+
+# Expression Execution 
+1. String and Numeric values can operate together with (*). [Repeat]
+- Example ->
+            A,B = 2,3
+            Txt = "@"
+            print(2*Txt*3) #@@@@@@
+
+2. String and String values can operate together with (+). [Concatenation]
+- Example ->
+            A,B = "2",3
+            Txt = "@"
+            print((2+Txt)*3) #2@2@2@
+
+3. Numeric values can operate with all arithmetic operators.
+- Example ->
+            A,B = 2,3
+            C = 4
+            print(A+B*C) #14
+
+4. Arithmetic expression with integer and float will result in float.
+- Example ->
+            A,B = 10,5.0
+            C = A * B
+            print(C) #50.0
+
+-5.Result of division operator with two integers will be float.
+- Example ->
+            A,B = 1,2
+            C = A / B
+            print(C) #0.5
+
+6. Integer division with float and int will give int displayed as float.
+7. floor gives closest integer, which is lesser than or equal to float value.
+- Example ->
+            A,B = 1.5,3
+            C = A // B
+            print(C) #0.0
+
+            A,B = 12,-5
+            C = A // B
+            print(C) #-3    
+
+8. Remainder is negative when denominator is negative.
+- Example ->
+            A,B = 5,-2
+            C = A % B
+            print(C) #-1
+
+
+# Type Conversion
+- It is the process of converting one data type to another with is done by Python automatically.
+- It allows changing the data type of a variable or value to suit the requirements of a particular operation or context.
+- Python supports both implicit and explicit type conversion.
+- Implicit type conversion, also called coercion, occurs automatically during operations between different types.
+- Explicit type conversion involves using built-in functions like `int()`, `float()`, `str()`, etc., to explicitly convert one type to another.
+- It is essential for performing operations, comparisons, and formatting data in Python programs.
+- Example ->
+        a = 2
+        b = 4.25
+        sum = a + b
+        print(sum)
+
+
+# Type Casting
+- It involves converting one data type into another with is needed to done by user manually.
+- It allows altering the data type of a variable or value to suit specific requirements.
+- Type casting can be explicit, where the programmer specifies the conversion using built-in functions like `int()`, `float()`, `str()`, etc.
+- Explicit type casting helps ensure compatibility between different data types and facilitates smooth data manipulation and processing.
+- It is essential for performing operations, comparisons, and formatting data in Python programs.
+- Example ->
+        a = int("2") # string to integer
+        b = 4.25
+        sum = a + b
+        print(type(a))
+        print(sum)
+
+# Input 
+- Statement is used to accept values (using keyboard) from user.
+- For string (simple input), for Integer (int) and for Decimal Value (float).
+- Syntax ->
+        input() # result for input() si always a str
+        int(input())
+        float(input())
+x----x

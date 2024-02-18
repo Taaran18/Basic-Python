@@ -1,0 +1,44 @@
+# Install Python
+https://www.python.org/
+
+Make sure that the “Install launcher for all users” and “Add Python to PATH” settings are selected and choose “Customize installation”.
+
+
+# Install VS Code / Visual Studio Code
+https://code.visualstudio.com/
+
+
+- Developed by Guido Van Rossum
+- Python is a high-level programming language.
+- It is and intendation language. (It's not like Java or C++)
+- Known for its simplicity and readability.
+- Widely used for Web Development, Data Analysis, AI, and Scientific Computing.
+- Elegant syntax with minimalistic and easy-to-understand code structures.
+- Supports multiple programming paradigms: procedural, object-oriented, and functional programming.
+- Vast standard library and a vibrant community.
+- Extensive ecosystem of third-party libraries and frameworks.
+- Code -> Translator (Interpreter) -> Machine Code (0/1)
+
+
+# Python Character Set
+- Letter -> A-Z, a-z
+- Digits -> 0-9
+- Special Symbols ->  !"#$%&'()*+,-./:;<=>?@[\]
+- Whitespaces -> Blankspace, tab, carriage return, newline, formfeed
+
+
+# Keywords
+- Reserved words in a programming language.
+- They have predefined meanings and cannot be used as identifiers.
+- Play crucial roles in defining the syntax and structure of a program.
+- Examples in Python include `if`, `else`, `for`, `while`, `def`, `class`, `import`, `return`, `True`, `False`, `None`, etc.
+- Facilitate Control Flow, defining Functions and Classes, Importing Modules, and more.
+
+
+# Comments
+- Comments in Python are non-executable lines used to annotate code for better understanding.
+- They are ignored by the interpreter during program execution.
+- Comments start with the `#` symbol and extend to the end of the line.
+- Comments can be used to document code, explain functionality, or temporarily disable code.
+- They enhance code readability and maintainability for both the original developer and collaborators.
+x----x

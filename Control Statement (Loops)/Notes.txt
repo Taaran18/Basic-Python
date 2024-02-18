@@ -1,0 +1,29 @@
+# Conditional Statements
+- It are used to execute different code blocks based on specified conditions.
+- They allow a program to make decisions and control the flow of execution.
+- The main types of conditional statements in Python are:
+  1. if statement -> Executes a block of code if a specified condition is true.
+  2. if-else statement -> Executes one block of code if the condition is true and another block if it is false.
+  3. if-elif-else statement -> Allows checking multiple conditions and executing different blocks of code accordingly.
+- Conditional statements are crucial for implementing logic and branching within programs.
+- Syntax ->
+            if(condition):
+                Statement1
+            elif(condition):
+                Statement2
+            else:
+                Statement3
+
+
+# Ternary Operator -
+- It is a concise way to write conditional expressions.
+- It is also known as the conditional expression.
+- It evaluates the condition, and if true, returns the value of `x`, otherwise returns the value of `y`.
+- The ternary operator is often used as a shorthand for simple if-else statements.
+- It helps improve code readability by reducing the number of lines for simple conditional assignments and avoid complex expression.
+- Syntax (Single Line)->
+            <var> = <val1> if <condition> else <val2>
+            <Statement1> if <condition> else <Statement2>
+- Syntax (CleverIf Line)->
+            <var> = (false_val, true_val) [<condition>]
+
