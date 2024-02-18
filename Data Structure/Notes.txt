@@ -7,4 +7,132 @@
 - Array
 
 
-#
+# Strings
+- Data Type that stores  a sequence of characters.
+- Immutable, meaning the value cannot be changed after it is assigned to a variable.
+- Operations ->
+    - Concattenation -> "a" + "b" -> "ab"
+    - Length of String (str) -> len(str)
+
+
+# String Indexing
+- It refers to accessing individual characters within a string using their position.
+- Each character in a string has an index, starting from 0 for the first character.
+- Indexing allows retrieving specific characters or substrings from a string.
+- Positive indexes count from the beginning of the string (left to right), while negative indexes count from the end (right to left).
+- Example: `str1 = "Python"`, accessing the character 'P' with `my_string[0]`.
+
+
+# String Slicing
+- It involves extracting a portion of a string based on specified start and end indices.
+- It allows retrieving substrings/segments of a string efficiently.
+- The `start_index` is inclusive, and the `end_index` is exclusive, meaning the character at the `end_index` is not included in the slice.
+- Negative indices can also be used for slicing, indicating positions relative to the end of the string.
+- It facilitates extracting substrings, reversing strings, and performing various string manipulation operations.
+- Syntax ->
+        string[start_index:end_index:step]
+
+
+# String Functions
+- str.lower : writes the string in lowercase
+- str.upper : writes the string in uppercase
+- str.replace : replaces all occurrences of old with new
+- str.count : counts the occurrence of substring of string
+- str.find :  returns the index of the substring if found else -1
+- str.split :  splits the string at each occurrence of separator and returns list of substrings
+- str.capitalize :  capitalizes only the first letter of the string
+- str.endswith : returns true if string ends with substring
+
+
+# Lists
+- A built-in data type that stores set of values.
+- It can store elements of different types (integer, float, string, etc.).
+- It  are ordered collections of elements enclosed within square brackets `[ ]`.
+- They can contain elements of different data types, including integers, floats, strings, or even other lists.
+- They are mutable, meaning their elements can be modified after creation.
+- Elements in a list are accessed via their index, starting from 0 for the first element.
+- Lists support various operations like appending, extending, inserting, removing, and sorting elements.
+
+
+# List Slicing
+- It involves extracting a portion of a list based on specified start and end indices.
+- The `start_index` is inclusive, and the `end_index` is exclusive, meaning the element at `end_index` is not included in the slice.
+- Negative indices can also be used for slicing, indicating positions relative to the end of the list.
+- Syntax ->
+        `list[start_index:end_index:step]` 
+
+# List Functions
+- list.append()
+- list.extend()
+- list.append()
+- list.insert(index, element)
+- list.sort()
+- list.reverse()
+- list.pop(index)
+- list.remove(index)
+- list.count()
+- list.index()
+- list.clear()
+
+
+# Tuples
+- A built-in data type that lets us create immutable sequences of values.
+- They are ordered collections of elements enclosed within parentheses ().
+- They can contain elements of different data types, similar to lists.
+- Tuples are immutable, meaning their elements cannot be modified after creation.
+- Elements in a tuple are accessed via their index, starting from 0 for the first element.
+
+
+# Tuples Slicing
+- It involves extracting a portion of a tuple based on specified start and end indices.
+- The start_index is inclusive, and the end_index is exclusive, meaning the element at end_index is not included in the slice.
+- Negative indices can also be used for slicing, indicating positions relative to the end of the tuple.
+- The step parameter specifies the increment between elements to include in the slice, with a default value of 1.
+- Syntax ->
+        tuple[start_index:end_index:step].
+
+
+# Tuples Functions
+- tuple.count()
+- tuple.index()
+
+
+# Dictionary
+- They are unordered collections of key-value pairs enclosed within curly braces `{}`.
+- Each key-value pair maps a unique key to its associated value.
+- Keys in a dictionary must be immutable objects (e.g., strings, numbers, tuples), while values can be of any data type.
+- Dictionaries are mutable, allowing for dynamic addition, deletion, and modification of key-value pairs.
+- They provide fast lookup and retrieval of values based on keys.
+- They are commonly used for mapping relationships between entities, storing configurations, and representing data in various applications.
+
+
+
+# Dictionary Functions
+- dict.len()
+- dict.keys()
+- dist.values()
+- dist.items()
+- dict.get(key[, default])
+- dict.pop(key[, default])
+- dict.update(newDict)
+
+
+# Set
+- They are unordered collections of unique elements enclosed within curly braces `{}`.
+- They do not allow duplicate elements, ensuring each element appears only once.
+- They are mutable, allowing for dynamic addition, deletion, and modification of elements.
+- They support various mathematical operations like union, intersection, difference, and symmetric difference.
+
+
+# Set Functions
+- set.add(element)
+- set.remove(element)
+- set.pop()
+- set.discard()
+- set.isdisjoint()
+- set.issubset()
+- set.issuperset()
+
+- set.union()
+- set.intersection()
+- set.difference()
