@@ -1,9 +1,9 @@
 # Set is a collection of unordered and unindexed elements. It is written in curly brackets {}.
 
-set1 = {1, 2, 3, 4, 5}
-set2 = {"a", "b", "c", "d", "e"}
-set3 = {1, "a", 2, "b", 3, "c"}
-set4 = {1, 2, 3, 4, 5, 6, 7}
+set1 = {1, 2, 3, 4, 5} # Set with same data types
+set2 = {"a", "b", "c", "d", "e"} # Set with same data types
+set3 = {1, "a", 2, "b", 3, "c"} # Set with different data types
+set4 = {1, 2, 3, 4, 5, 6, 7} # Set with same data types
 print(type(set1))  # Output: <class 'set'>
 
 print(set1, set2, set3, set4)

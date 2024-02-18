@@ -46,7 +46,7 @@ print("Slicing", tuple3[-3:-1])  # Output: (2, 'b')
 
 # Functions
 print("Count: ", tuple4.count(4))  # Output: 1
-print("Index: ", tuple2.index("b"))  # Output: 1
+print("Index: ", tuple2.index("d"))  # Output: 3
 
 # Tuple to List
 list1 = list(tuple1)

@@ -27,3 +27,5 @@
 - Syntax (CleverIf Line)->
             <var> = (false_val, true_val) [<condition>]
 
+# While Loop
+

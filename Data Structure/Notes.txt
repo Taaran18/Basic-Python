@@ -90,6 +90,10 @@
 - The step parameter specifies the increment between elements to include in the slice, with a default value of 1.
 - Syntax ->
         tuple[start_index:end_index:step].
+- tuple(1,) -> tuple
+- tuple(1) -> integer
+- tuple(1.0) -> float
+- tuple("hello") -> string
 
 
 # Tuples Functions
@@ -108,11 +112,12 @@
 
 
 # Dictionary Functions
+- dict[key] = value : Add an item to the dictionary with the given key and set it to the provided value. If the key already exists, its value is replaced.
 - dict.len()
 - dict.keys()
 - dist.values()
 - dist.items()
-- dict.get(key[, default])
+- dict.get(key[, default]) [if used [] in get function to find something that is not there in dict then it return error, else used () the it will return None]
 - dict.pop(key[, default])
 - dict.update(newDict)
 
@@ -120,8 +125,11 @@
 # Set
 - They are unordered collections of unique elements enclosed within curly braces `{}`.
 - They do not allow duplicate elements, ensuring each element appears only once.
-- They are mutable, allowing for dynamic addition, deletion, and modification of elements.
+- They are mutable, but elements are immutable allowing for dynamic addition, deletion, and modification of elements.
 - They support various mathematical operations like union, intersection, difference, and symmetric difference.
+- Empty Set Syntax ->
+            collection = set()
+            print(collection)
 
 
 # Set Functions
@@ -136,3 +144,4 @@
 - set.union()
 - set.intersection()
 - set.difference()
+x----x
