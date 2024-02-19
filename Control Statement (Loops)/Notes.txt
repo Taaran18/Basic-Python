@@ -28,4 +28,43 @@
             <var> = (false_val, true_val) [<condition>]
 
 # While Loop
+- It is used to repeatedly execute a block of code as long as a specified condition is true.
+- The block of code inside the while loop is executed as long as the condition remains true.
+- If the condition evaluates to false initially, the block of code inside the while loop is not executed.
+- The loop continues until the condition becomes false or until a break statement is encountered.
+- While loops are useful when the number of iterations is not known beforehand, and the loop needs to continue until a certain condition is met.
+- It's essential to ensure that the condition eventually becomes false to avoid infinite loops, which can lead to program hangs or crashes.
+- Syntax ->
+        while condition:
+            statement
+- Break Statement -> used to terminate the loop when encountered.
+- Continue Statement -> terminates execution in the current iteration & continues execution of the loop with the next iteration.
 
+
+# For Loop
+- It is used to iterate over a sequence (such as a list, tuple, string, or range) or any iterable object.
+- The loop iterates over each element in the iterable, executing the block of code inside the loop for each iteration.
+- Once all elements in the iterable have been processed, the loop terminates.
+- For loops are often used when the number of iterations is known or when iterating over elements in a collection.
+- They provide a concise and readable way to perform repetitive tasks.
+- Syntax ->
+        for variable in iterable: (iterable can be list)
+            statement
+        else:
+            statement
+
+
+# For range Loop
+- Range functions returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
+- The range() function generates a sequence of numbers from start to stop-1 with an optional step size.
+- the f before a string literal denotes an f-string, also known as a formatted string literal
+- Syntax ->
+        for i in range(start?, stop, step?) [? is optional]
+            statement
+- Pass Statement -> used as a placeholder when syntactically required but you don't want to execute any code.
+- Syntax ->
+        for i in range(start?, stop, step?):
+            pass
+        else:
+            statement
+x---x
