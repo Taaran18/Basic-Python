@@ -1,0 +1,35 @@
+# Functions
+- It is a block of reusable code that performs a specific task.
+- It organize code into manageable chunks and promote code reuse.
+- They are defined using the `def` keyword followed by the function name and parentheses containing parameters (if any).
+- Parameters are variables passed to the function to provide input values.
+- They are called or invoked using the function name followed by parentheses containing arguments (if any).
+- Arguments are values passed to the function when it is called, which are assigned to the corresponding parameters.
+- They can be defined with or without parameters and can return values or perform actions without returning anything.
+- They are a fundamental concept in Python programming, enabling modular, reusable, and maintainable code.
+- Syntax ->
+        def func_name(paramaters): # func definition
+            statement
+            return value
+
+        func_name(arguments) # func call
+- In-built functions ->
+    print( ) [end = " " / "\n"]
+    len( ) 
+    type( )
+    range( )
+
+# Recursion
+- It refers to the technique of a function calling itself directly or indirectly to solve a problem.
+- A programming concept where a problem is divided into smaller subproblems that are solved using the same function recursively.
+- It typically involves two parts: a base case and a recursive case.
+- The base case defines the simplest scenario where the function returns a known result without further recursion.
+- It defines how the function calls itself with modified arguments to solve a smaller instance of the same problem.
+- Syntax ->
+        def recursive_function(parameters):
+            if base_case_condition:
+                return base_case_value
+            else:
+                modified_parameters = modify(parameters)
+            return recursive_function(modified_parameters)
+x----x
